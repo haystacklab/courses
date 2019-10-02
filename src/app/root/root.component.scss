@@ -1,0 +1,42 @@
+
+
+.rootbody {
+    padding-top: 6%;
+}
+
+// 
+
+.background-image {
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/front-page/tv-ads-heroes/variant2.png?auto=format%2Ccompress&dpr=1&w=1600");
+
+    /* Full height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-image * {
+    color: #fff;
+    font-family: OpenSans,sans-serif;
+}
+
+.caption1 {
+    float: left;
+    padding: 10%;
+    padding-bottom: 0;
+
+}
+
+.caption2 {
+    float: right;
+    padding: 14% 5%;
+}
+
+.statement {
+    float: left;
+    padding: 0 10%;
+}
